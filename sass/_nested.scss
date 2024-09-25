@@ -1,0 +1,17 @@
+// Nested selector for card component
+.card {
+    background-color: $primary-color;
+    padding: $padding;
+    border-radius: 5px;
+  
+    .card-header {
+      font-size: $font-size-large;
+      color: white;
+    }
+  
+    .card-body {
+      font-size: $font-size-small;
+      color: darken($primary-color, 20%);
+    }
+  }
+  
